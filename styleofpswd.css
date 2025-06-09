@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(109, 109, 109);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    align-items: center;
+    display:flex;
+    margin-top: 10px;
+}
+
+.container{
+    max-width: 600px;
+    background-color: rgb(211, 209, 209);
+    display: block;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 1);
+    padding: 25px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.container:hover{
+    box-shadow: 0px 0px 0px 0.5px;
+
+}
+#password{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+}
+
+#generate{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#generate:hover{
+    background-color: rgb(0, 105, 0);
+}

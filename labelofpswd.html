@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styleofpswd.css">
+</head>
+<body>
+    
+
+<div class="container">
+
+    <h1>Password Generator</h1>
+
+    <div class="password">
+
+        <input placeholder="the password appears here" type="text" id="password" readonly>
+        <button type="button" id="generate">Generate</button>
+
+    </div>
+
+    <div class="options"></div>
+
+            <label for="length">Password Length:</label>
+            <input id="length" type="number" value="8" min="8" max="64">
+
+            <label for="lowercase">Include Lowercases:</label>
+            <input type="checkbox" id="lowercase" >
+
+            <label for="Uppercase">Include Uppercases:</label>
+            <input type="checkbox" id="uppercase" checked >  
+
+            <label for="number">Include Numbers:</label>
+            <input type="checkbox" id="number" checked >
+
+            <label for="symbol">Include Symbols:</label>
+            <input type="checkbox" id="symbol" >  
+
+    </div>
+
+</div>
+
+<script src="calcofpswd.js"></script>
+
+</body>
+</html>
