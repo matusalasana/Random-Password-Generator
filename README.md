@@ -1,6 +1,6 @@
 ## 🔐 Random Password Generator – HTML, CSS, JavaScript
 
-This is a simple web-based application that generates secure, random passwords based on user preferences. The app was built using **HTML**, **CSS**, and **vanilla JavaScript**, with a clean and responsive user interface.
+This is a simple web-based application that generates secure, random passwords based on user preferences. The app was built using **HTML**, **CSS**, and **JavaScript**, with a clean and responsive user interface.
 
 ### ✨ Features:
 
